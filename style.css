@@ -1,0 +1,110 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+	background-color: #B1D0E0;
+}
+
+.page{
+    padding: 50px;
+}
+
+.container{
+    margin-right:0;
+    max-width: 30%;
+    max-height: 30%;
+    padding: 34px;
+	border: 2px solid #6c818b;
+    background-color: rgba(255, 255, 255,0.5);
+    margin-top: 8em;
+}
+
+.container h3, p{
+    text-align: center;
+    padding: 10px;
+}
+
+
+
+h3{
+    font-size: 2.2em;
+    color: rgb(3, 49, 53);
+}
+
+input, textarea{
+    display: block;
+    border: hidden;
+    border-bottom: 2px solid black;
+    font-size: 15px;
+    width: 70%;
+    padding: 10px;
+    margin: 4px;
+    border-radius: 6px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+textarea {
+     height: max-content;
+     resize: vertical; 
+    }
+
+#signup,
+#signin{
+	cursor: pointer;
+}
+#signup:hover,
+#signin:hover{
+	color: rgba(0,0,0,0.6);
+}
+
+.pass{
+    width:  100%;
+    display: flex ;
+    align-items: center;
+    justify-content: center;
+}
+
+
+form{
+    display: flex ;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.form_error span {
+    width: 80%;
+    height: 35px;
+    margin: 3px 10%;
+    font-size: 1.1em;
+    color: #D83D5A;
+  }
+  .form_error input {
+    border: 1px solid #D83D5A;
+  }
+
+i{ 
+   
+    margin-left: -30px;
+    cursor: pointer;
+}
+
+
+.btn{
+    width: 20%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+}
+
+
+
+@media screen and (max-width: 1000px){
+    .container{
+        max-width: 50%;
+    }
+}

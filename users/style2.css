@@ -1,0 +1,265 @@
+*{
+    box-sizing: border-box;
+    margin:0;
+    padding:0;
+}
+body{
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    background-color: black;
+    font-weight: 600;
+}
+ul{
+    list-style: none;
+}
+a{
+     color: #fff;
+    text-decoration: none;    
+}
+.text-primary{
+    color: #8d8dec;
+    font-weight: bolder;
+    }
+.bg-dark{
+        background: rgb(40, 84, 231);
+}
+.bg-light{
+        background:white;
+}
+
+.button:hover{
+        background: blueviolet;
+}
+.meta{
+        margin: 20px;
+}
+#navbar{
+    background: #000;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: auto;
+    padding: 0 30px;
+    width: 100%;
+    top:0;
+    position: fixed;
+    height: 70px;
+    z-index: 2;
+}
+#navbar ul{
+    display: flex;
+}
+#navbar ul a{
+margin-right: 80px;
+padding: 10px;
+}
+#navbar ul a:hover{
+    border-bottom:solid 2px #8d8dec;
+}
+.homepage-content{
+    background: url('bg1.jpg') no-repeat center center/cover;
+    height: 100vh;
+}
+.homepage-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-top: 100px;
+    color: #fff;
+}
+.homepage-content h1{
+    font-size: 70px;
+    padding-bottom: 10px;
+    text-align: center;
+}
+.homepage-content h2{
+    font-size: 50px;
+    padding: 0 30px;
+    color: #fff;
+    
+}
+
+.homepage::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,0.6);
+}
+.homepage-content p{
+    font-size: 30px;
+    padding: 0 30px;
+    color: #fff;
+    font-weight: 400;
+}
+.homepage-content * {
+    z-index: 1;
+}
+.services{
+    background: black;
+    align-items: center;
+    color: white;
+    
+}
+.services h1{
+    text-align: center;
+    margin: 5px;
+    padding: 10px;
+}
+.flex {
+    display: flex;
+    font-size: 30px;
+    text-align: center;
+    color: #000000;
+    font-weight: bold;
+    justify-content: space-around;
+  }
+  .box-items {
+    background-color: #8d8dec;
+    color: #000;
+    width: 250px;
+    height: 300px;
+    margin: 10px;
+    text-align: center;
+    font-size: 40px;
+    line-height: 1.5;
+    border-radius: 5px;
+  }
+.container{
+    display: flex;
+}
+.container div {
+        border: 1px #ccc solid;
+        padding: 10px;
+}
+#venue h1{
+    text-align: center;
+    margin: 5px;
+    padding: 10px;
+    color: white;
+}
+.flex-items .row{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+}
+.flex-items .column{
+    display: flex;
+    flex-direction: column;
+    flex-basis: 100%;
+    flex: 1;
+}
+.flex-items .column .column-1,
+.flex-items .column .column-2 {
+    height: 500px;
+    color: #000;
+}
+
+.flex-items img {
+    width: 100%;
+    height : 100%;
+    object-fit: cover;
+}
+
+.flex-items .column-2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
+.flex-items .column-2 h2{
+    font-size: 50px;
+}
+.flex-items .column-2 p{
+    font-size: 23px;
+}
+.flex-reverse .row{
+    flex-direction: row-reverse;
+}
+button{
+    color: white;
+    background:blue ;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 5px;
+    border: black;
+    font-size: 20px;
+}
+button:hover{
+    background: #4f4fff;
+    cursor: pointer;
+}
+.callback-form label{
+    font-size: 30px;
+    display: block;
+    color: #000;
+}
+.callback-form input{
+    width:600px;
+    height: 40px;
+    margin:10px;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+}
+.callback-form input:focus {
+    outline-color: black;
+}
+.btn{
+    background: rgb(84, 173, 173);
+    cursor:pointer;
+    font-size: 20px;
+}
+.btn:hover{
+    background: teal ;
+}
+#main-footer{
+    background: rgb(64, 65, 65);
+    color: #fff;
+    text-align: center;
+    height: 100px;
+}
+#main-footer .social{
+    padding: 10px;
+}
+#main-footer a{
+    margin: 10px;
+    padding: 5px;
+    color: #fff;
+}
+#main-footer a:hover{
+    color: teal;
+}
+#main-footer p{
+    margin:0;
+    padding-top: 10px;
+    font-size: small;
+}
+table{
+    border-collapse: collapse;
+    width: auto;
+}
+td,th{
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+.wbg{
+    background: white;
+    color: #000;
+    height: 20px auto;
+    min-width: 500px ;
+}
+.edit_profile{
+    padding: 40px;
+    margin-top: -65px;
+    background-color: #f1f1f1;
+    margin: 50px;
+    border-radius: 20px;
+}
