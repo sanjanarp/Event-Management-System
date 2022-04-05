@@ -36,7 +36,7 @@
         }
         ?>
         <br>
-        <div>Not registered yet? Register <a href="register.php">here</a></div>
+        <div>Not registered yet? Register <a href="index.php">here</a></div>
     </form>
     </div>
   </div>
